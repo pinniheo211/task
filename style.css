@@ -937,6 +937,11 @@ padding-right: 10px;
     margin-right: 0;
     margin-bottom: 25px;
   }
+  
+  .pic1 img, .pic2 img{
+    max-width: 100%;
+  }
+  
   .serving__grid {
     /* grid-template-columns: repeat(2, 1fr); */
   }
@@ -1364,7 +1369,7 @@ padding-right: 10px;
     /* grid-column: 2/4; */
   }
   .serving__title h3 {
-    font-size: 36px;
+    font-size: 16px;
   }
   .quote__content {
     flex-direction: column;
